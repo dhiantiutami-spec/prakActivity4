@@ -62,4 +62,13 @@ void tampilFibonacci() {
         cout << n << " bukan bilangan Fibonacci" << endl;
     }
 }
+
+// fungsi menu
+void tampilMenu() {
+    cout << "\n===== MENU =====" << endl;
+    cout << "1. Cek Bilangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar" << endl;
+    cout << "Pilih menu: ";
+}
        
