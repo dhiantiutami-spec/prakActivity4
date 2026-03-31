@@ -16,6 +16,7 @@ bool isPrima(int x) {
     while (i <= x / 2){
         if (x % i == 0) {
             return false;
+        }
         i++; 
         }
     } 
@@ -31,5 +32,11 @@ bool isFibonacci(int x){
         a = b;
         b = c;
     }
+    if (x == 0 || x == 1 || c == x) {
+        return true;
+    } else {
+        return false;
+    }
 }
+
        
