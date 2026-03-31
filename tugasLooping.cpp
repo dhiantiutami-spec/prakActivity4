@@ -5,3 +5,6 @@ using namespace std;
 int n;
 int pilihan;
 
+// fungsi untuk cek bilangan prima
+bool isPrima(int x) {
+    if (x <= 1) return false;
